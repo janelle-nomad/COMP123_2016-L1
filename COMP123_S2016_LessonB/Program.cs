@@ -10,12 +10,23 @@ using System.Threading.Tasks;
         Date: 2016-05-13
         Student Number: 300839820
         Description: This program demonstrates Github and best practices, we also explore unit testing 
-        Version: 0.1
+        Version: 0.2 - Added GetUsername
     */
 namespace COMP123_S2016_LessonB
+
+    /**
+     *  @ This is the driver class for our program
+     *  
+     *  @class Program
+     */
 {
     class Program
     {
+        /**
+         * 
+         * @param {string[]} args
+         * @Constructor Main
+         */
         static void Main(string[] args)
         {
             GetUserName();
