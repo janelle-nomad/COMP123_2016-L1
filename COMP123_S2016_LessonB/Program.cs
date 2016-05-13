@@ -10,7 +10,7 @@ using System.Threading.Tasks;
         Date: 2016-05-13
         Student Number: 300839820
         Description: This program demonstrates Github and best practices, we also explore unit testing 
-        Version: 0.2 - Added GetUsername
+        Version: 0.3 - Updated comments for driver class Program
     */
 namespace COMP123_S2016_LessonB
 
@@ -28,6 +28,7 @@ namespace COMP123_S2016_LessonB
          * @Constructor Main
          */
         static void Main(string[] args)
+
         {
             GetUserName();
         }
