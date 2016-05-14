@@ -14,7 +14,7 @@ using System.Threading.Tasks;
  *   Description: This program demonstrates Github and version control best practices. 
  *   We also explore unit testing
  *    
- *   Version: 0.7 - Added minor spelling corrections  
+ *   Version: 0.8 - Refactored OutputStringToConsole, performed FinalUnit1Test
  * 
 */
 namespace COMP123_S2016_LessonB
@@ -43,7 +43,7 @@ namespace COMP123_S2016_LessonB
          *  @This method creates a username from the console
          *  @return {string} Username 
          */
-        #region
+        #region Get UserName Method
         public static string GetUserName()
         {
 
