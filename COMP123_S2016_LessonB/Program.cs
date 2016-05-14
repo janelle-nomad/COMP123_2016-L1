@@ -7,12 +7,14 @@ using System.Threading.Tasks;
 
 /**
  * 
- *  Janelle Heron AKA Janelle Nomad
-    Date: 2016-05-13
-    Student Number: 300839820
-    Description: This program demonstrates Github and version control best practices. 
-    We also explore unit testing 
-    Version: 0.6 - Added Lesson1UnitTest  
+ *   Author: Janelle Heron 
+ *   Date Created: May 13 2016
+ *   Date Modified: May 13 2016
+ *   Student ID: 300839820
+ *   Description: This program demonstrates Github and version control best practices. 
+ *   We also explore unit testing
+ *    
+ *   Version: 0.7 - Added minor spelling corrections  
  * 
 */
 namespace COMP123_S2016_LessonB
@@ -48,11 +50,11 @@ namespace COMP123_S2016_LessonB
             //Initialize Variables
             String UserName = "";
 
-            OutputStringToConsole("Enter Username: ", true);
+            OutputStringToConsole("Enter UserName: ", false);
             UserName = Console.ReadLine();
 
-            Console.WriteLine("\n==============================\n");
-            Console.WriteLine("You entered: " + UserName);
+            Console.WriteLine("\n==============================");
+            Console.WriteLine("You Entered: " + UserName + "\n");
             return UserName;
         }
 
