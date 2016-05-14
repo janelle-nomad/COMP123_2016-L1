@@ -5,14 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-    /*
-        Janelle Heron AKA Janelle Nomad
-        Date: 2016-05-13
-        Student Number: 300839820
-        Description: This program demonstrates Github and best practices, we also explore unit testing 
-        Version: 0.4 - Extracted OutputString to console from our GetUsername method
-        
-    */
+/**
+ * 
+ *  Janelle Heron AKA Janelle Nomad
+    Date: 2016-05-13
+    Student Number: 300839820
+    Description: This program demonstrates Github and version control best practices. 
+    We also explore unit testing 
+    Version: 0.6 - Added Lesson1UnitTest  
+ * 
+*/
 namespace COMP123_S2016_LessonB
 
     /**
@@ -21,7 +23,7 @@ namespace COMP123_S2016_LessonB
      *  @class Program
      */
 {
-    class Program
+    public class Program
     {
         /**
          * 
@@ -57,24 +59,20 @@ namespace COMP123_S2016_LessonB
         /**
          * This method writes a string to the console, 
          * Parameters allow the user to choose to add a newline character
-         * @method OutputStringToCOnsole
+         * 
+         * @method OutputStringToConsole
          * @param {string} outputString
          * @param {bool} hasNewLine
          * @return {string} outputString
          */
-        private static string OutputStringToConsole(string outputString, bool hasNewLine)
+        public static string OutputStringToConsole(string outputString, bool hasNewLine)
         {
 
-            if (hasNewLine)
-            {
-                Console.WriteLine(outputString);
-            }
-            else
-            {
-                Console.Write(outputString);
-            }
-           
-            Console.Write(outputString);
+            // Refactored using the ternary operator
+            string suffixString = hasNewLine ? "\n" : ""; // ternary operator
+
+            Console.Write(outputString + suffixString);
+
             return outputString;
         }
 
